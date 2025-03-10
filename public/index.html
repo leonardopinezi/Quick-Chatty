@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Chatty</title>
+    <meta name="keywords" content="chat, anonymous chat, web chat, online chat, programming game, real-time communication">
+    <link rel="stylesheet" href="./css.css">
+    <script src="/socket.io/socket.io.js" type="text/javascript"></script>
+
+    <meta property="og:title" content="Quick Chatty">
+    <meta name="description" content="Quick Chatty is an anonymous and simple chat for you to talk to other users without having to identify yourself.">
+</head>
+<body>
+    <main>
+        <section id="messages">
+            <p>-- Welcome --</p>
+        </section>
+        <section id="info">
+            <p id="chat-info">Online users [0]</p>
+        </section>
+        <section id="msgbox">
+            <input type="text" id="msg" placeholder="Message">
+            <button id="sendMessage">Send</button>
+        </section>
+    </main>
+
+    <script src="./chat.js"></script>
+</body>
+</html>
