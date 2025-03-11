@@ -1,5 +1,3 @@
-Claro! Aqui está o código fonte completo em Markdown com blocos de código copiados corretamente:
-
 # 🚀 Quick Chatty
 
 Welcome to **Quick Chatty**, an open-source, anonymous web chat application built with **Node.js**, **Express**, and **Socket.io**. It allows users to join chat rooms, send messages in real-time, and communicate without any authentication required.
